@@ -1,12 +1,11 @@
-import PromptForm from "./components/PromptForm";
+import PromptForm from './components/PromptForm';
 
 function App() {
-  return (
-    <div>
-      <h1>Send a Prompt</h1>
-      <PromptForm />
-    </div>
-  );
+    return (
+        <div>
+            <PromptForm />
+        </div>
+    );
 }
 
 export default App;
